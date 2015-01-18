@@ -424,7 +424,7 @@ public class MessageManager {
 			@Override
 			public void onFailure(int reason) {
 				//Toast.makeText(context, "Clear service fail :" +reason,
-		                 //Toast.LENGTH_SHORT).show();				
+		                 //Toast.LENGTH_SHORT).show();			hg
 			}
 			
 		});

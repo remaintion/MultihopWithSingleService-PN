@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/colReceiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:text="Receiver" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/colSender"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:text="Sender" />
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent" >
+
+		<TextView
+		    android:id="@+id/colId"
+		    android:layout_width="20dp"
+		    android:layout_height="wrap_content"
+		    android:text="ID" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="103dp"
+	    android:layout_height="match_parent" >
+
+		<TextView
+		    android:id="@+id/colMessage"
+		    android:layout_width="98dp"
+		    android:layout_height="wrap_content"
+		    android:text="Message" />
+
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_weight="0.01" >
+
+		<TextView
+		    android:id="@+id/colPN"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.10"
+		    android:text="PN" />
+
+	</LinearLayout>
+
+</LinearLayout>
